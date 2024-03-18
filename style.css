@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #DCDCDC;
+    width: 100%; 
+    align-items: center;
+  
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+.menu{
+    margin-left: 7rem;
+    margin-top: 3rem;
+   
+    
+}
+main{
+    display: flex;
+    
+}
+.theme{
+    font-size: 13px;
+    width: 15vw;
+    cursor: pointer;
+}
+
+.img{
+    width: 100px;
+}
+
+.titre{
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+  
+}
+.description{
+    margin-top: 0.4rem;
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+
+.image{
+    width: 15rem;
+    border-radius: 5rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+li {
+    margin-left: 1rem;
+    margin-bottom: 0.8rem;
+}
+.info{
+    margin-left: 4rem;
+    font-size: 30px;
+    margin-bottom: 1rem;
+   
+}
+.titre2{
+    margin-left: 2rem;
+    font-size: 30px;
+    margin-bottom: 1rem;
+    
+}
+
+.info2{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: solid 3px grey;
+    display: flex;
+    
+   
+}
+.info1{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: solid 3px grey;
+   
+
+}
+
+.part2{
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+.titrepart2{
+    margin-bottom: 1rem;
+    font-size: 30px;
+    text-decoration:underline;
+}
+.titre3{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.parti3{
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 4rem;
+}
+.part3{
+    border: solid black 2px;
+    width: 100%;
+    margin-top: 2rem;
+}
+.voir{
+    margin-right: 3rem;
+}
+.p1{
+    text-align: center;
+}
+
+img{
+    margin-left: 1rem;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    height: 1.4rem;
+    width: 4rem;
+    border: solid 2px grey;
+    margin-left: 1.4rem;
+    margin-bottom: 0.4rem;
+    width: 15vw;
+}
+
+.projet{
+    width: 10rem;
+    margin-left: 3.5rem;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: #DCDCDC;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.reseaux{
+    display: flex;
+    
+    
+}
+
+.dark{
+    background-color: purple;
+}
+
+.bouton{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    
+}
+
+
+
+
+
+
+@media screen and (max-width:780px) {
+
+    .parti3{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    .projet{
+        margin-left: 10rem;
+    }
+    
+    
+    .voir{
+        margin-left: 10rem;
+    }
+    
+    .theme{
+        margin-left: 3rem;
+        width: 15vw;
+       
+    }
+
+   
+}
